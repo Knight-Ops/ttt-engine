@@ -1,13 +1,6 @@
 mod board;
 mod tile;
 mod strategy;
-mod game;
 mod conditions;
+pub mod game;
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
